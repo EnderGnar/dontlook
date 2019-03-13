@@ -1,1 +1,1 @@
-alert(123);
+alert("niggi du bisch hässlich!");

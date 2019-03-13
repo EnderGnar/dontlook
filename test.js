@@ -11,6 +11,6 @@ function loaded(){
 }
 
 function ytVideo(){
-  $("body").append(`<iframe id="nevergonnaend" width="1" height="1" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
+  $("body").append(`<iframe id="nevergonnaend" width="1" height="1" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" frameborder="0" allow="accelerometer; autoplay=true; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
 }
 

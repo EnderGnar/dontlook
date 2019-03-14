@@ -1,5 +1,5 @@
-//Dieses Script führt verändert nur das Erscheinungsbild der Website. Mit der verwendeten Eindringungsmethode können jedoch durchaus
-//gefährliche Scripts auf das Gisy gelangen. Es soll nur die Aufmerksamkeit auf das Problem ziehen und in keinerlei Hinsicht Schaden anrichten.
+//Dieses Script führt veraendert nur das Erscheinungsbild der Website. Mit der verwendeten Eindringungsmethode können jedoch durchaus
+//gefaehrliche Scripts auf das Gisy gelangen. Es soll nur die Aufmerksamkeit auf das Problem ziehen und in keinerlei Hinsicht Schaden anrichten.
 
 
 

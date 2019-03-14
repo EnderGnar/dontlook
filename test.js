@@ -103,7 +103,7 @@ function goodtime(){
     $('#theholy').css({'margin-left':'auto','margin-right':'auto','display': 'block'});
     $('.nms_usrf_news_timestamp_div').each(function(){$(this).text("3.14159265358979323")});
     for(var i=0;i<10;i++){
-        $('.nav_right_inner_box').append("<div class='pinn_date'>30.2.4200 | rösti isch lebe</div> <div class='pinn_subject'><span class='pinn_title plinky'> Einzig wahre SCHWERPUNKTFACH </span> chömmet id mathklass</div>");
+        $('.nav_right_inner_box').append("<div class='pinn_date'>30.2.4200 | r&ouml;sti isch lebe</div> <div class='pinn_subject'><span class='pinn_title plinky'> Einzig wahre SCHWERPUNKTFACH </span> chömmet id mathklass</div>");
     }
     imageer();
 }

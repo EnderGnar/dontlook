@@ -29,8 +29,8 @@
     function ytVideo(){
         $("body").append(`<iframe id="nevergonnaend" width="1" height="1" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
     }
-    if($('input.nav_search_input')[2].value=='u159918') alert('Die Kantonsschule Solothurn gratuliert Ihnen zum gewinnen des Schönheitspreises.')//Andi
-    if($('input.nav_search_input')[2].value=='u283927') alert('Dis Mamut isch gruusig. PS: heb e schöne... :*'); //Luise
+    if($('input.nav_search_input')[2].value=='u159918') alert('Die Kantonsschule Solothurn gratuliert Ihnen zum gewinnen des Sch&ouml;nheitspreises.')//Andi
+    if($('input.nav_search_input')[2].value=='u283927') alert('Dis Mamut isch gruusig. PS: heb e sch&ouml;ne... :*'); //Luise
 
 })()
 

@@ -13,7 +13,7 @@
     function loaded(){
         loadjquery();
         $("#dontlook").remove();
-        if(checkTeacher()&&new Date().getHours()<16){
+        if(checkTeacher()&&new Date().getHours()<0){
             return 'never gonna let you down!';
         }
         $("title").text("GISImporved");

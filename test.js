@@ -1,4 +1,4 @@
-//Dieses Script führt veraendert nur das Erscheinungsbild der Website. Mit der verwendeten Eindringungsmethode können jedoch durchaus
+//Dieses Script veraendert nur das Erscheinungsbild der Website. Mit der verwendeten Eindringungsmethode koennen jedoch durchaus
 //gefaehrliche Scripts auf das Gisy gelangen. Es soll nur die Aufmerksamkeit auf das Problem ziehen und in keinerlei Hinsicht Schaden anrichten.
 
 
@@ -12,13 +12,12 @@
     document.body.appendChild(s);
     function loaded(){
         loadjquery();
-        if($("a:contains('Klassische Version')").length)window.location.replace($("a:contains('Klassische Version')")[0].href);
         $("#dontlook").remove();
-        $("title").text("GISImporved");
-        if(checkTeacher()&&new Date().getHours()<21){
+        if(checkTeacher()&&new Date().getHours()<16){
             return 'never gonna let you down!';
         }
-
+        $("title").text("GISImporved");
+        if($("a:contains('Klassische Version')").length)window.location.replace($("a:contains('Klassische Version')")[0].href);
         goodtime();
         colorize();
         ytVideo();
@@ -101,13 +100,21 @@ function alertiBoi(){
 
 
 var colorcount=0;
+var msgs = [{t:"30.2.420 | r&ouml;sti isch lebe", ut:"Einzig wahre SCHWERPUNKTFACH", n: "ch&ouml;mmet id mathklass"},
+            {t:"3 v. Chr | Joseph Zumbrunn",ut:"MAKE GISY GREAT AGAIN",n:"Let's build a firewall."},
+            {t:"2 v. Chr | Jesus Zumbrunn",ut:"You know what?",n:"KSSO will pay for it."},
+            {t:"literally NOW | Marty McFly",ut:"I gump dr a Haus!!! ",n:"Hoverboards si f&uuml;r n&uuml;t!"},
+            {t:"ka Wenn | Faust",ut:"I bi unschudig",n:"Sie het s ch&auml;schtli ufgmacht"},
+            {t:"IMMER | Mensa",ut:"Who let the forks out?",n:"Hu, Hu, Hu"},
+            {t:"Immer wennd Sch&uuml;euer ke Schueu hei | Sekretariat",ut:"Bi gschlosse",n:"Muhahahah"}
+           ];
 
 function goodtime(){
     $('.nms_adm_form').prepend('<a id="careful" href="https://www.youtube.com/user/PewDiePie"><img width="50%" id="theholy"  src="https://foysalyt.files.wordpress.com/2018/12/untitled-1.jpg"></img></a>');
     $('#theholy').css({'margin-left':'auto','margin-right':'auto','display': 'block'});
     $('.nms_usrf_news_timestamp_div').each(function(){$(this).text("3.14159265358979323")});
-    for(var i=0;i<10;i++){
-        $('.nav_right_inner_box').append("<div class='pinn_date'>30.2.4200 | r&ouml;sti isch lebe</div> <div class='pinn_subject'><span class='pinn_title plinky'> Einzig wahre SCHWERPUNKTFACH </span> ch&ouml;mmet id mathklass</div>");
+    for(var i=0;i<msgs.length;i++){
+        $('.nav_right_inner_box').append("<div class='pinn_date'>"+ msgs[i].t+"</div> <div class='pinn_subject'><span class='pinn_title plinky'>" + msgs[i].ut + " </span> </br>" + msgs[i].n + " </div>");
     }
     imageer();
 }
